@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #121212;
+    color: #F5F5F5;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 2rem 0;
+}
+
+ul li{
+    background-color: #1E1E1E;
+    padding: 1rem 1.5rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #F5F5F5;
+    font-family: 'Nunito', sans-serif;
+}
+
+ul li a:hover {
+    color: #BB86FC;
+}
+
+.title {
+    text-align: center;
+    font-size: 50px;
+    color: #FFA94D;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 2.5rem;
+}
